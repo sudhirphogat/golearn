@@ -23,4 +23,5 @@ func main() {
 //example of var scope
 func food() {
 	fmt.Println("again:", y)
+	fmt.Printf("%T", y)
 }
