@@ -5,12 +5,16 @@ import "fmt"
 func main() {
 	fmt.Println("This is Sudhir")
 	foo()
+	//declare and assign a value can be done using :=
+	// the value can be changed of a declared value using equal sign =
+	x := 42
 
-	for i := 0; i < 100; i++ {
-		if i%2 == 0 {
-			fmt.Println(i)
-		}
-	}
+	fmt.Println(x)
+
+	x = 99
+	fmt.Println(x)
+	y := 100 + 24
+	fmt.Println(y)
 	check()
 }
 
